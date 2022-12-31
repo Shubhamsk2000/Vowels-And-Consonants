@@ -1,0 +1,71 @@
+/* imported font links */
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Josefin Sans', sans-serif;
+}
+
+body{
+    height: 100vh;
+    width: 100vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: linear-gradient(to right bottom,rgb(230, 28, 149) ,rgb(84, 200, 218));
+}
+
+.main{
+    width: 450px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 23px;
+    padding: 30px 30px;
+    flex-direction: column;
+    background-color: rgb(199, 204, 247);
+    gap: 1rem;
+    text-align: center;
+
+}
+
+h1{
+    font-size: 50px;
+}
+p{
+    font-size: 25px;
+}
+
+.input{
+    width: 75%;
+    padding: 6px;
+    text-align: center;
+    text-transform: lowercase;
+    border-radius: 23px;
+    border: none;
+    font-size: 21px;
+}
+
+.btn{
+    padding: 8px 20px;
+    border-radius: 12px;
+    text-transform: uppercase;
+    font-size: 18px;
+    font-weight: 500;
+    border: none;
+    transition: all 0.3s ease-in;
+}
+.btn:hover{
+    background:rgb(84, 200, 218);
+    box-shadow: 0 0 10px 2px rgb(77, 217, 239);
+}
+.btn:active{
+    scale: 0.8;
+}
+
+
+
+
+
