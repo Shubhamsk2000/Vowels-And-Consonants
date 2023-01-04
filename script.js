@@ -11,7 +11,7 @@ function throwValue(){
         else if(arr[i]==" "){
             continue;
        }
-        else if(isNaN(arr[i])){
+        else if(typeof arr[i] =='number')){
             continue;
        }
         
