@@ -11,7 +11,7 @@ function throwValue(){
         else if(arr[i]==" "){
             continue;
        }
-        else if(typeof arr[i] =='number')){
+        else if(typeof arr[i] =="number"){
             continue;
        }
         
