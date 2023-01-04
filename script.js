@@ -11,6 +11,10 @@ function throwValue(){
         else if(arr[i]==" "){
             continue;
        }
+        else if(isNaN(arr)){
+            continue;
+       }
+        
         else{
             CountConsonents++;
         }
